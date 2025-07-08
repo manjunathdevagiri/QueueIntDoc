@@ -24,22 +24,22 @@ public class App {
         System.out.println("\nTop PERFORMERS(Score>70)");
         scheduler.displayTopScorers(70);
         
-        Appointment appo=new Appointment();
-        
-        appo.appointment(new Doctor(1, "Charlie", 12, 2));
-        appo.appointment(new Doctor(2, "Andy", 18, 1));
-        appo.appointment(new Doctor(3, "Benidict", 22, 3));
-        appo.appointment(new Doctor(4, "Dreco", 80, 3));
-        appo.appointment(new Doctor(5, "Franses", 12, 2));
-        
-        appo.consulted(new Doctor(6, "Eren", 50, 3));
-        appo.consulted(new Doctor(7, "Mikasa", 40, 2));
-        
-        System.out.println("Appointment List");
-        appo.displayAppointment();
-        System.out.println("Consulted List");
-        appo.displayConsulted();
-        System.out.println("Emergency List 1->normal|2->moderate|3->Emergency");
-        appo.displayPriority(3);
+//        Appointment appo=new Appointment();
+//        
+//        appo.appointment(new Doctor(1, "Charlie", 12, 2));
+//        appo.appointment(new Doctor(2, "Andy", 18, 1));
+//        appo.appointment(new Doctor(3, "Benidict", 22, 3));
+//        appo.appointment(new Doctor(4, "Dreco", 80, 3));
+//        appo.appointment(new Doctor(5, "Franses", 12, 2));
+//        
+//        appo.consulted(new Doctor(6, "Eren", 50, 3));
+//        appo.consulted(new Doctor(7, "Mikasa", 40, 2));
+//        
+//        System.out.println("Appointment List");
+//        appo.displayAppointment();
+//        System.out.println("Consulted List");
+//        appo.displayConsulted();
+//        System.out.println("Emergency List 1->normal|2->moderate|3->Emergency");
+//        appo.displayPriority(3);
     }
 }

@@ -9,9 +9,9 @@ import java.util.Queue;
 
 public class InterviewScheduler {
 
-	private Queue<Interview> scheduleQueue=new LinkedList<Interview>();
-	private Deque<Interview> walkInDeque=new ArrayDeque<Interview>();
-	private PriorityQueue<Interview> topPerformersQueue=new PriorityQueue<Interview>(
+	public Queue<Interview> scheduleQueue=new LinkedList<Interview>();
+	public Deque<Interview> walkInDeque=new ArrayDeque<Interview>();
+	public PriorityQueue<Interview> topPerformersQueue=new PriorityQueue<Interview>(
 			(a,b)->Integer.compare(b.getScore(), a.getScore())
 			);
 	public void scheduleInterview(Interview i) {
